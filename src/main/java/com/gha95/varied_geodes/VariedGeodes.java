@@ -1,4 +1,4 @@
-package com.gha95.VariedGeodes;
+package com.gha95.varied_geodes;
 
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -8,9 +8,13 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import com.gha95.setup.Registration;
+
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod("varied_geode")
+@Mod(VariedGeodes.MODID)
 public class VariedGeodes {
+	public static final String MODID = "varied_geodes";
+	
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
 
@@ -21,6 +25,9 @@ public class VariedGeodes {
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+        
+        //Initialise registration of our own items
+        Registration.init();
     }
 
     private void setup(final FMLCommonSetupEvent event) {
