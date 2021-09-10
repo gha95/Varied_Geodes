@@ -20,6 +20,14 @@ public class Items extends ItemModelProvider{
 				new ResourceLocation("item/amethyst_cluster"), 
 				"layer0",
 				new ResourceLocation(VariedGeodes.MODID, "item/emerald_cluster"));
+		singleTexture(Registration.EMERALD_SHARD.get().getRegistryName().getPath(), 
+				new ResourceLocation("item/amethyst_shard"), 
+				"layer0",
+				new ResourceLocation(VariedGeodes.MODID, "item/emerald_shard"));
+		singleTexture(Registration.NATURAL_EMERALD.get().getRegistryName().getPath(), 
+				new ResourceLocation("item/amethyst_block"), 
+				"layer1",
+				new ResourceLocation(VariedGeodes.MODID, "item/natural_emerald"));
 	}
 	
 }

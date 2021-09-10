@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/amethyst_shard",
+  "textures": {
+    "layer0": "varied_geodes:item/emerald_shard"
+  }
+}

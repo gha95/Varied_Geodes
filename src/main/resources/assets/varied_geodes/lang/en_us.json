@@ -1,0 +1,9 @@
+{
+    "item.varied_geodes.emerald_cluster": "Emerald Cluster",
+    "item.varied_geodes.emerald_shard": "Emerald Shard",
+    "item.varied_geodes.natural_emerald": "Natural Emerald",
+
+    "message.natural_cluster" : "Ooh, shiny!",
+    "message.natural_shard" : "A healing crystal ;)",
+    "message.natural_block" : "A more authentic gem block"
+}

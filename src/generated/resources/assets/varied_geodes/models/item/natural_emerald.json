@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/amethyst_block",
+  "textures": {
+    "layer1": "varied_geodes:item/natural_emerald"
+  }
+}
